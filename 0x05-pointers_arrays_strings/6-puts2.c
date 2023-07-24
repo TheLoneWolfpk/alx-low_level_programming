@@ -3,7 +3,7 @@
  * puts2 - prints odd characters in string
  * @str: string pointer
  *
- * Return: void 
+ * Return: void
  */
 
 void puts2(char *str)
