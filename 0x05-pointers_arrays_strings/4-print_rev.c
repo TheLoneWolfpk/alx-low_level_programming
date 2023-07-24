@@ -23,7 +23,7 @@ void print_rev(char *s)
 }
 
 /**
- * _strlen - gets lenght of a string 
+ * _strlen - gets lenght of a string
  * @s: string
  *
  * Return: always len
