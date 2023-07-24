@@ -15,7 +15,11 @@ void rev_string(char *s)
 	if (len != 0)
 	{
 		for (i = 0; i <= (len - 1); i++)
+		{
+			ch[i] = *(s + (len - (i + 1)));
+		}
 	}
+
 	for (j = 0; j <= (len - 1); j++)
 	{
 		*(s + j) = ch[j];
@@ -38,5 +42,6 @@ int _strlen(char *s)
 		len++;
 		s++;
 	}
+
 	return (len);
 }
