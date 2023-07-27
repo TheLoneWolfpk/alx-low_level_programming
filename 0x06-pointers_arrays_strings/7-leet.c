@@ -9,7 +9,7 @@ char *leet(char *s)
 	int count = 0, i;
 	int low_letters[] = {97, 101, 111, 116, 109};
 	int upp_letters[] = {65, 69, 79, 84, 76};
-	int nummbers[] = {52, 51, 48, 55, 49};
+	int numbers[] = {52, 51, 48, 55, 49};
 
 	while (*(s + count) != '\0')
 	{
