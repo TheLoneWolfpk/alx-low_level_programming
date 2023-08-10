@@ -8,7 +8,7 @@
  * Return:pointer to the allocated memory
  * if nmemb or size is 0, returns NULL
  * if malloc fails, return NULL
- */ 
+ */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p;
