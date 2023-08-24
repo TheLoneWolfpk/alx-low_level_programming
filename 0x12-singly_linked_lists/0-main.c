@@ -17,7 +17,6 @@ int main(void)
 
 	head = &hello;
 	new = malloc(sizeof(list_t));
-
 	if (new == NULL)
 	{
 		printf("Error\n");
